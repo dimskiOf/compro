@@ -69,23 +69,15 @@
     <div class="fixed-top">
         <nav class="navbar bg-white trilliun_navbar fixed-top">
             <div class="d-flex flex-row align-items-center px-4 navbar-container d-none d-lg-flex">
-                <a class="navbar-logo" href="https://trilliun.com"><img src="https://trilliun.com/img/icon-trilliun.png"
-                        alt="Trilliun" width="40"></a>
-                <a class="navbar-logo-text ms-2 me-4" href="https://trilliun.com"><img
-                        src="https://trilliun.com/img/trilliunwhite.png" class="mr-4" alt="Trilliun" width="60"
-                        style="filter: invert(1)"></a>
+                <a class="navbar-logo" href="beranda.php"><img src="assets/image/logo-mpi.png"
+                        alt="Figo" width="40"></a>
+                <a class="navbar-logo-text ms-2 me-4" href="beranda.php"><img
+                        src="assets/image/deluxelogo.png" class="mr-4" alt="Figo" width="60"></a>
                 <div class="navbar-menu-btn d-flex align-items-center ms-2">
                     <a href="#!" class="navmenu-btn">MENU</a>
                 </div>
             </div>
             <div class="d-flex flex-row justify-content-between px-4 w-100 d-lg-none d-block">
-                <div class="d-flex flex-row align-items-center">
-                    <a class="navbar-logo" href="https://trilliun.com"><img src="https://trilliun.com/img/icon-trilliun.png"
-                            alt="Trilliun" width="40"></a>
-                    <a class="navbar-logo-text ms-2 me-4" href="https://trilliun.com"><img
-                            src="https://trilliun.com/img/trilliunwhite.png" class="mr-4" alt="Trilliun" width="60"
-                            style="filter: invert(1)"></a>
-                </div>
                 <div class="navbar-menu-btn border-0 d-flex align-items-center justify-content-end">
                     <a href="#!" class="navmenu-btn">MENU</a>
                 </div>
@@ -440,7 +432,7 @@
 
     <div class="content">
         <div class="d-flex flex-column justify-content-end pt-md-5 pt-0 justify-content-md-center pb-4 pages-header pages-header-paralax"
-            style="background-image:url('https://trilliun.com/img/pages/career-header.jpg')">
+            style="background-image:url('assets/image/img-PVUE-About-Careers-GroupProfessionals-800x427.png')">
             <div class="d-flex flex-column pages-header-content">
                 <p class="text-white p-0 mb-1">REASON <strong>#25.126.062</strong></p>
                 <h5 class="text-white d-none d-lg-block">Recruiting, developing and rewarding<br />highly competent people</h5>
@@ -451,7 +443,7 @@
             <h1 class="whoweare-title mx-auto text-center">Kembangkan Karirmu Bersama Kami!</h1>
             <p class="text-blackx text-center mx-auto">
                 Jika anda seorang yang dinamis, pekerja keras dan ingin mengambil tantangan baru untuk mencapai hasil yang lebih
-                baik, kami mengundang anda untuk bergabung dan menjadi bagian dari Trilliun.
+                baik, kami mengundang anda untuk bergabung dan menjadi bagian dari FIGO.
             </p>
         </div>
 
@@ -471,10 +463,6 @@
                         <label for="floatingEmail">Email</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input class="form-control" placeholder="Subject" id="floatingSubject" name="subject" type="text">
-                        <label for="floatingSubject">Subject</label>
-                    </div>
-                    <div class="form-floating mb-3">
                         <textarea class="form-control" placeholder="Your Message" id="floatingMsg" rows="10" style="height: auto;" name="text" cols="50"></textarea>
                         <label for="floatingMsg">Message</label>
                     </div>
@@ -492,29 +480,28 @@
             </div>
 
             <div class="pages-section text-center d-block d-flex flex-column flex-lg-row gap-3 py-0">
-                <a href="https://trilliun.com/about" class="card rounded-0 border-0 pages-card"
-                    style="background-image: url('https://trilliun.com/img/pages/abt.jpg')">
+                <a href="about.php" class="card rounded-0 border-0 pages-card"
+                    style="background-image: url('assets/image/hobibg.jpg')">
                     <div class="d-flex flex-column my-auto pages-card-body gap-2">
-                        <h4 class="align-self-start">About <strong>Trilliun</strong></h4>
+                        <h4 class="align-self-start">About <strong>FIGO</strong></h4>
                         <div class="align-self-start">Learn more</div>
                     </div>
                 </a>
-                <a href="https://trilliun.com/career" class="card rounded-0 border-0 pages-card"
-                    style="background-image: url('https://trilliun.com/img/pages/smallcareer.jpg')">
+                <a href="karir.php" class="card rounded-0 border-0 pages-card"
+                    style="background-image: url('assets/image/businessloan2.png')">
                     <div class="d-flex flex-column my-auto pages-card-body gap-2">
                         <h4 class="align-self-start">Careers</h4>
                         <div class="align-self-start">Inquiry Now</div>
                     </div>
                 </a>
-                <a href="https://trilliun.com/contact" class="card rounded-0 border-0 pages-card"
-                    style="background-image: url('https://trilliun.com/img/pages/Button-Contact-us.jpg')">
+                <a href="kontak.php" class="card rounded-0 border-0 pages-card"
+                    style="background-image: url('assets/image/businessloan.png')">
                     <div class="d-flex flex-column my-auto pages-card-body gap-2">
                         <h4 class="align-self-start">Contact Us</h4>
                         <div class="align-self-start">Send us a message</div>
                     </div>
                 </a>
             </div>
-
         </div>
     </div>
 

@@ -9,18 +9,18 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Apple devices fullscreen -->
     <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="icon" href="https://localhost/compro/template1/assets/image/logo-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://localhost/compro/template1/assets/image/logo-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://localhost/compro/template1/assets/image/logo-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://localhost/compro/template1/assets/image/logo-270x270.png" />
-    <title>TRILLIUN: Produsen Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas</title>
-    <meta name="description" content="Trilliun Group merupakan perusahaan manufaktur produk pipa dan fitting uPVC, pipa HDPE, talang air, selang PVC, hingga tali PE dengan standard SNI." />
-    <link rel="canonical" href="about.php" />
+    <link rel="icon" href="https://trilliun.com/img/icon/cropped-icon-trilliun-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://trilliun.com/img/icon/cropped-icon-trilliun-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://trilliun.com/img/icon/cropped-icon-trilliun-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://trilliun.com/img/icon/cropped-icon-trilliun-270x270.png" />
+    <title>TRILLIUN: Hubungi Kami untuk Informasi dan Pertanyaan</title>
+    <meta name="description" content="Punya pertanyaan seputar produk kami? Jangan ragu untuk menghubungi kami melalui kontak atau formulir yang ada di website ini." />
+    <link rel="canonical" href="https://trilliun.com/contact" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="TRILLIUN: Produsen Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas" />
-    <meta property="og:description" content="Trilliun Group merupakan perusahaan manufaktur produk pipa dan fitting uPVC, pipa HDPE, talang air, selang PVC, hingga tali PE dengan standard SNI." />
-    <meta property="og:url" content="https://trilliun.com/about" />
+    <meta property="og:title" content="TRILLIUN: Hubungi Kami untuk Informasi dan Pertanyaan" />
+    <meta property="og:description" content="Punya pertanyaan seputar produk kami? Jangan ragu untuk menghubungi kami melalui kontak atau formulir yang ada di website ini." />
+    <meta property="og:url" content="https://trilliun.com/contact" />
     <meta property="og:site_name" content="Trilliun Group" />
 
     <!-- GA Google Analytics @ https://m0n.co/ga -->
@@ -47,31 +47,63 @@
         }
 
         .pages-header-paralax {
-            background-size: 100%;
+            background-size: 130%;
             background-blend-mode: overlay;
-            background-position-y: 55%;
-            filter: saturate(120%) brightness(105%);
+            background-color: rgba(0, 0, 0, 0.17) !important;
         }
 
         .pages-header::before {
-            margin-top: 0;
-            backface-visibility: hidden;
-            box-shadow: inset 10px 10px 100px rgba(0, 0, 0, 0.4),
-                inset -10px -20px 100px rgba(0, 0, 0, 0.4);
+            background: rgba(0, 0, 0, 0.03);
         }
 
-        .content-paralax {
-            background-size: cover;
-            background-position-x: 50%;
-            background-position-y: 35%;
-            height: 460px;
-
+        .contactus-detail {
+            font-weight: 300;
         }
 
-        .img-cert {
-            max-width: 90vw;
-            height: auto;
-            max-height: 90px;
+        @media (max-width: 992px) {
+            .pages-header {
+                height: 60vh !important;
+            }
+
+            .pages-header h5 {
+                font-size: 28px !important;
+            }
+
+            .pages-header-paralax {
+                background-size: cover;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .pages-header {
+                height: 60vh !important;
+            }
+
+            .pages-header-paralax {
+                background-size: cover;
+            }
+        }
+
+        #map_canvas {
+            width: 100%;
+            height: 300px;
+        }
+
+        .btn-wa {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 999999;
+            background: rgb(37, 211, 102);
+            color: white;
+            padding: 12px 20px;
+            border-radius: 24px;
+            box-shadow: 0 0 4px 1px rgba(0, 0, 0, .2);
+            -webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, .2);
+        }
+
+        .grecaptcha-badge {
+            display: none !important;
         }
     </style>
 
@@ -81,9 +113,9 @@
     <div class="fixed-top">
         <nav class="navbar bg-white trilliun_navbar fixed-top">
             <div class="d-flex flex-row align-items-center px-4 navbar-container d-none d-lg-flex">
-                <a class="navbar-logo" href=""><img src="/assets/image/logo-mpi.png"
+                <a class="navbar-logo" href="https://trilliun.com"><img src="https://trilliun.com/img/icon-trilliun.png"
                         alt="Trilliun" width="40"></a>
-                <a class="navbar-logo-text ms-2 me-4" href="https://localhost/compro/template1/beranda.php"><img
+                <a class="navbar-logo-text ms-2 me-4" href="https://trilliun.com"><img
                         src="https://trilliun.com/img/trilliunwhite.png" class="mr-4" alt="Trilliun" width="60"
                         style="filter: invert(1)"></a>
                 <div class="navbar-menu-btn d-flex align-items-center ms-2">
@@ -110,12 +142,13 @@
                 <div class="navbar-menu">
                     <ul>
                         <li>
-                            <a href="beranda.php">HOME</a>
-                            <a href="about.php">ABOUT</a>
-                            <a href="catalog.php">CATALOG</a>
-                            <a href="project.php">PROJECT</a>
-                            <a href="karir.php">CAREERS</a>
-                            <a href="kontak.php">CONTACT</a>
+                            <a href="https://trilliun.com">HOME</a>
+                            <a href="https://trilliun.com/about">ABOUT</a>
+                            <a href="https://trilliun.com/catalog">CATALOG</a>
+                            <a href="https://trilliun.com/project">PROJECT</a>
+                            <a href="https://trilliun.com/certificates">CERTIFICATES</a>
+                            <a href="https://trilliun.com/career">CAREERS</a>
+                            <a href="https://trilliun.com/contact">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -450,159 +483,102 @@
     </div>
 
     <div class="content">
+        <a href="https://wa.me/628112888889?text=Halo+Trilliuners%2C+Silahkan+mengisi+data+dibawah+ini%3A%0A%0A-+Nama+%3A%0A-+Kota%2FKab.+%3A%0A-+Kebutuhan+%3A%0A-+Nomor+Telp.+%3A%0A-+Jenis+Usaha+%28Toko%2FProyek%2FRumah+Tangga%29++%3A%0A-+Info+no.+CS+Trilliun+dari+%28IG%2FFB%2FWEB%2FRekan%29++%3A%0A-+Pernah+menggunakan+Trilliun+%28Sudah%2FBelum%29++%3A"
+            target="_blank" class="btn-wa d-flex flex-row gap-2">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>Chat on WhatsApp</div>
+        </a>
         <div class="d-flex flex-column justify-content-end pt-md-5 pt-0 justify-content-md-center pb-4 pages-header pages-header-paralax"
-            style="background-image:url('https://trilliun.com/img/pages/Foto-Pabrik-1.jpg')">
+            style="background-image:url('https://trilliun.com/img/pages/Header-Contact-Us.jpg')">
             <div class="d-flex flex-column pages-header-content">
-                <p class="text-white p-0 mb-1">REASON <strong>#11.302.777</strong></p>
-                <h5 class="text-white">Indonesia’s leading manufacturer of<br />PVC & HDPE products.</h5>
+                <p class="text-white p-0 mb-1">REASON <strong>#215.358</strong></p>
+                <h5 class="text-white d-none d-lg-block">Always listening to customers.</h5>
+                <h5 class="text-white d-lg-none d-block">Always listening to<br /> customers.</h5>
+            </div>
+        </div>
+        <br />
+        <div class="d-flex flex-lg-row flex-column gap-5 contact-section">
+            <div class="d-flex flex-column col-lg-6 order-lg-1 order-2">
+                <h5 class="text-header">Company Information</h5>
+                <div class="d-flex flex-column pt-2">
+                    <p><strong>PT. Matahari Putra Makmur</strong></p>
+                    <div class="alamat-footer">
+                        Jln. Raya Gempol Bangil,
+                        Desa Cangkringmalang,
+                        Kec. Beji, Kab. Pasuruan,
+                        Jawa Timur, Indonesia
+                    </div>
+                    <div class="d-flex flex-column gap-3 mt-2 contactus-detail pt-2">
+                        <span><i class="fa-solid fa-phone fa-sm text-trilliun me-2"></i> +62 343 659926 – 28</span>
+                        <span><i class="fa-solid fa-phone fa-sm text-trilliun me-2"></i> +62 343 655777</span>
+                        <span><i class="fa-brands fa-whatsapp text-trilliun me-2"></i> +62 811 2888 889</span>
+                        <span><i class="fa-solid fa-fax text-trilliun me-2"></i> +62 343 659930</span>
+                        <span class="text-trilliun"><i class="fa-solid fa-envelope text-trilliun me-2"></i>
+                            info@trilliun.com</span>
+                    </div>
+                    <div class="my-4" id="map_canvas"></div>
+                </div>
+            </div>
+            <div class="d-flex flex-column col-lg-6 order-lg-2 order-1">
+                <h5 class="text-header">Connect</h5>
+                <div class="d-flex flex-wrap gap-3 pt-2">
+                    <a href="https://www.facebook.com/trilliun.official"
+                        class="d-flex rounded-circle text-white bg-trilliun sc-icon" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-facebook-f my-auto mx-auto"></i></a>
+                    <a href="https://www.instagram.com/trilliun.official"
+                        class="d-flex rounded-circle text-white bg-trilliun sc-icon" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-instagram my-auto mx-auto"></i></a>
+                    <a href="https://www.youtube.com/channel/UCiQ9fFRKtgbhG9-AMRJcgdg"
+                        class="d-flex rounded-circle text-white bg-trilliun sc-icon" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-youtube my-auto mx-auto"></i></a>
+                    <a href="https://www.tiktok.com/@trilliun.official"
+                        class="d-flex rounded-circle text-white bg-trilliun sc-icon" target="_blank" rel="noopener"><i
+                            class="fa-brands fa-tiktok my-auto mx-auto"></i></a>
+
+                </div>
+                <h5 class="text-header pt-3">INQUIRY</h5>
+                <div class="contact-form d-flex justify-content-center">
+                    <form method="POST" action="https://trilliun.com/submit-contact" accept-charset="UTF-8" id="dform" class="form-career d-flex flex-column"><input name="_token" type="hidden" value="6PMtyQubVQMbw8Xr7kZcTPvBTvrXorztwONeodH4">
+                        <div class="d-flex flex-row gap-3">
+                            <div class="form-floating mb-3 flex-fill">
+                                <input class="form-control" placeholder="Your Name" id="floatingName" name="name" type="text">
+                                <label for="floatingName">Name</label>
+                            </div>
+                            <div class="form-floating mb-3 flex-fill">
+                                <input class="form-control" placeholder="+62 000 0000 0000" id="floatingPhone" name="phone" type="text">
+                                <label for="floatingPhone">Phone</label>
+                            </div>
+                        </div>
+
+                        <div class="form-floating mb-3">
+                            <input class="form-control" placeholder="youremail@email.com" id="floatingEmail" name="email" type="email">
+                            <label for="floatingEmail">Email</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input class="form-control" placeholder="Subject" id="floatingSubject" name="subject" type="text">
+                            <label for="floatingSubject">Subject</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" placeholder="Your Message" id="floatingMsg" rows="10" style="height: auto;" name="text" cols="50"></textarea>
+                            <label for="floatingMsg">Message</label>
+                        </div>
+                        <div class="mb-3 response-msg">
+                        </div>
+                        <button type="submit"
+                            class="btn-trilliun border-0 bg-trilliun d-block text-white px-5 py-3 mx-auto btnSubmit">
+                            <span class="spinner-border spinner-border-sm d-none loading-spinner" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </span>
+                            <span class="btn-sp d-none">
+                                &nbsp;&nbsp;&nbsp;
+                            </span><span class="btn-text">Send</span>
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
 
-
         <div class="container-fluid-x">
-            <div class="d-flex about-section mt-5">
-                <div class="col-lg-4 d-flex flex-column p-3 justify-content-center align-items-center">
-                    <img src="https://trilliun.com/img/logo/logo-trilliun-h.png" width="300" class="mb-4">
-                    <p class="p-bold">didirikan pada tahun 2006 berlokasi di kawasan industri Gempol, Kabupaten Pasuruan, Jawa
-                        Timur,
-                        Indonesia.
-                    </p>
-                </div>
-                <div class="col-lg-8">
-                    <h2 class="about-title">Company Profile</h2>
-                    <iframe title="Trilliun (Company Profile)" class="w-100" height="523"
-                        src="https://www.youtube.com/embed/ppo7KysoNig?feature=oembed"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen="" name="fitvid0"></iframe>
-                    <p class="pt-2">Trilliun memproduksi berbagai macam produk-produk PVC & HDPE dengan kualitas terbaik &
-                        inovatif.</p>
-                </div>
-            </div>
-            <h2 class="about-title mt-5">TRILLIUN PRODUCTS</h2>
-            <div class="row homeSection m-0 pb-3">
-                <div class="col-lg-7 ps-0 pe-0 pe-lg-5">
-                    <div id="carouseltrilliun" class="homeCarouselabout carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="0" class="active"
-                                aria-current=&quot;true&quot;
-                                aria-label="Slide 0"></button>
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="1" class=""
-
-                                aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="2" class=""
-
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="3" class=""
-
-                                aria-label="Slide 3"></button>
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="4" class=""
-
-                                aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="5" class=""
-
-                                aria-label="Slide 5"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slide2-01.jpg" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-02.png" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-03.png" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-04.png" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-05.png" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-06.png" class="w-100" alt="Product Spotlight">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-5 d-flex flex-column desc no-bg ">
-                    <p class="text-header">Trilliun adalah perusahaan yang terdepan dalam memproduksi produk-produk PVC dan HDPE yang berkualitas.</p>
-                    <p>Trilliun berkonsentrasi dalam memproduksi dan memasarkan produk- produk: <i>u</i>PVC & PE Pipe, <i>u</i>PVC Fitting, <i>u</i>PVC Gutter, PVC Hose, PVC Door dan PE Rope. Trilliun akan terus melakukan <i>continous improvement</i> untuk melahirkan dan memasarkan produk-produk inovatif dan kreatif dalam memenuhi kebutuhan pelanggan. </p>
-
-                </div>
-            </div>
-            <br />
-            <div class="row homeSection m-0 pb-3">
-                <div class="col-lg-7 order-1 order-lg-2 ps-0 ps-lg-5 pe-0">
-                    <div id="carouseltrilliunabout" class="homeCarouselabout carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-indicators">
-                            <button type="button" data-bs-target="#carouseltrilliunabout"
-                                data-bs-slide-to="0" class="active"
-                                aria-current=&quot;true&quot;
-                                aria-label="Slide 0"></button>
-                            <button type="button" data-bs-target="#carouseltrilliunabout"
-                                data-bs-slide-to="1" class=""
-
-                                aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouseltrilliunabout"
-                                data-bs-slide-to="2" class=""
-
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouseltrilliunabout"
-                                data-bs-slide-to="3" class=""
-
-                                aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-01.jpg" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-03.jpg" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-04.jpg" class="w-100" alt="Product Spotlight">
-                            </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-05.jpg" class="w-100" alt="Product Spotlight">
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-                <div class="col-lg-5 d-flex flex-column desc no-bg order-2 order-lg-1">
-                    <p class="text-header">Kualitas produk dan kepuasan pelanggan adalah prioritas Trilliun.</p>
-                    <p>Trilliun menjamin setiap produknya diproduksi dengan mesin-mesin berteknologi tinggi serta melewati <i>quality control</i> yang ketat sehingga semua produk Trilliun memiliki karakteristik yang kuat dan tahan lama.<br /><br />Tidak hanya memberikan kualitas produk yang terbaik, kepuasan pelanggan juga merupakan prioritas utama Trilliun dengan berkomitmen memberikan servis yang terbaik dari segala sisi, serta pelayanan purna jual yang prima.</p>
-
-                </div>
-            </div>
-
-            <div class="d-flex flex-column justify-content-end pt-md-5 my-5 pt-0 justify-content-md-center pb-4 content-paralax"
-                style="background-image:url('https://trilliun.com/img/pages/point9b.jpg')">
-                &nbsp;
-            </div>
-            <h3 class="trl-recognition text-center pt-4">a <strong>Trilliun</strong> Recognition</h3>
-            <p class="text-center fw-light lh-lg">Sebagai wujud komitmen dalam menjaga kualitas produk dan mengedepankan
-                kepuasan
-                pelanggan, Trilliun<br />secara aktif
-                dan konsisten melakukan pengujian melalui berbagai sertifikasi dan standarisasi, baik dalam<br /> skala nasional
-                maupun internasional.</p>
-            <center>
-                <img class="my-5 img-cert" src="https://trilliun.com/img/pages/logo-all-sertifikat-scaled.jpg" alt="All Certificates">
-            </center>
-            <center class="mb-5">
-                <a href="https://trilliun.com/certificates" class="fw-bold text-trilliun">Detail Sertifikat</a>
-            </center>
 
             <div class="pages-section text-center d-block d-flex flex-column flex-lg-row gap-3 py-0">
                 <a href="https://trilliun.com/about" class="card rounded-0 border-0 pages-card"
@@ -780,18 +756,62 @@
 <script type="text/javascript" src="https://trilliun.com/js/scroll-to-top.js"></script>
 <script type="text/javascript" src="https://trilliun.com/js/lightbox.min.js"></script>
 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLKueqqFXn68sOFFyFL6w4krOR96SIfoo"
+    type="text/javascript"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=6LcM5X8pAAAAAB7uwPSw1RiVcbX1Q6nmIIFTuQ9h"></script>
 <script>
     $(function() {
-        $(window).scroll(function() {
-            let scrollTop = $(window).scrollTop();
-            if (scrollTop >= 0) {
-                let translate = scrollTop
-                $(".content-paralax").css({
-                    'background-position-y': (535 - (translate / 100 * 10)) + "%",
+        $('body').on('click', '.btnSubmit', function(e) {
+            e.preventDefault();
+            $(this).find('.loading-spinner').removeClass('d-none');
+            $(this).find('.btn-sp').removeClass('d-none');
+            $(this).find('.btn-text').addClass('d-none');
+            grecaptcha.ready(function() {
+                grecaptcha.execute('6LcM5X8pAAAAAB7uwPSw1RiVcbX1Q6nmIIFTuQ9h', {
+                    action: 'submit'
+                }).then(function(token) {
+                    $("#dform").submit()
                 });
-            }
+            });
+
         });
+
+        var pos = null;
+        if ($("#dform .alert").length > 0)
+            pos = $('.alert').offset().top;
+
+        if ($("#dform .alert").length > 0)
+            pos = $('.alert').offset().top;
+
+        if (pos != null)
+            $("html,body").animate({
+                scrollTop: pos - 150
+            }, 0);
     });
+
+    const latValue = "-7.5809328047373254";
+    const longValue = "112.73454523846895";
+    var defaultLocation = new google.maps.LatLng(latValue, longValue);
+
+    var map = new google.maps.Map(document.getElementById('map_canvas'), {
+        zoom: 17,
+        center: defaultLocation,
+        disableDefaultUI: true, // a way to quickly hide all controls
+        scaleControl: true,
+        zoomControl: true,
+        zoomControlOptions: {
+            style: google.maps.ZoomControlStyle.LARGE
+        },
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    });
+
+    var myMarker = new google.maps.Marker({
+        position: defaultLocation,
+        draggable: false
+    });
+
+    map.setCenter(myMarker.position);
+    myMarker.setMap(map);
 </script>
 
 </html>

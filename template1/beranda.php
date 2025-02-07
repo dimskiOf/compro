@@ -54,7 +54,7 @@
                 <a class="navbar-logo" href="beranda.php"><img src="assets/image/logo-mpi.png"
                         alt="Trilliun" width="40"></a>
                 <a class="navbar-logo-text ms-2 me-4" href="beranda.php"><img
-                        src="assets/image/deluxelogo.png" class="mr-4" alt="Trilliun" width="60"
+                        src="assets/image/deluxelogo.png" class="mr-4" alt="mpi" width="60"
                         style="filter: invert(1)"></a>
                 <div class="navbar-menu-btn d-flex align-items-center ms-2">
                     <a href="#!" class="navmenu-btn">MENU</a>
@@ -65,7 +65,7 @@
                     <a class="navbar-logo" href="beranda.php"><img src="assets/image/logo-mpi.png"
                             alt="Trilliun" width="40"></a>
                     <a class="navbar-logo-text ms-2 me-4" href="beranda.php"><img
-                            src="assets/image/deluxelogo.png" class="mr-4" alt="Trilliun" width="60"
+                            src="assets/image/deluxelogo.png" class="mr-4" alt="mpi" width="60"
                             style="filter: invert(1)"></a>
                 </div>
                 <div class="navbar-menu-btn border-0 d-flex align-items-center justify-content-end">

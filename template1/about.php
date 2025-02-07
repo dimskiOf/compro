@@ -9,19 +9,19 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Apple devices fullscreen -->
     <meta names="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <link rel="icon" href="https://localhost/compro/template1/assets/image/logo-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://localhost/compro/template1/assets/image/logo-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://localhost/compro/template1/assets/image/logo-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://localhost/compro/template1/assets/image/logo-270x270.png" />
-    <title>TRILLIUN: Produsen Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas</title>
-    <meta name="description" content="Trilliun Group merupakan perusahaan manufaktur produk pipa dan fitting uPVC, pipa HDPE, talang air, selang PVC, hingga tali PE dengan standard SNI." />
+    <link rel="icon" href="assets/image/logo-32x32.png" sizes="32x32" />
+    <link rel="icon" href="assets/image/logo-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/image/logo-180x180.png" />
+    <meta name="msapplication-TileImage" content="assets/image/logo-270x270.png" />
+    <title>FIGO: Produsen Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas</title>
+    <meta name="description" content="Figo Group merupakan perusahaan manufaktur produk pipa dan fitting uPVC, pipa HDPE, talang air, selang PVC, hingga tali PE dengan standard SNI." />
     <link rel="canonical" href="about.php" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="article" />
-    <meta property="og:title" content="TRILLIUN: Produsen Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas" />
-    <meta property="og:description" content="Trilliun Group merupakan perusahaan manufaktur produk pipa dan fitting uPVC, pipa HDPE, talang air, selang PVC, hingga tali PE dengan standard SNI." />
-    <meta property="og:url" content="https://trilliun.com/about" />
-    <meta property="og:site_name" content="Trilliun Group" />
+    <meta property="og:title" content="FIGO: Produsen Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas" />
+    <meta property="og:description" content="FIGO Group merupakan perusahaan manufaktur produk pipa dan fitting uPVC, pipa HDPE, talang air, selang PVC, hingga tali PE dengan standard SNI." />
+    <meta property="og:url" content="about.php" />
+    <meta property="og:site_name" content="FIGO Group" />
 
     <!-- GA Google Analytics @ https://m0n.co/ga -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FXPFZFZEGM"></script>
@@ -81,23 +81,15 @@
     <div class="fixed-top">
         <nav class="navbar bg-white trilliun_navbar fixed-top">
             <div class="d-flex flex-row align-items-center px-4 navbar-container d-none d-lg-flex">
-                <a class="navbar-logo" href=""><img src="/assets/image/logo-mpi.png"
-                        alt="Trilliun" width="40"></a>
-                <a class="navbar-logo-text ms-2 me-4" href="https://localhost/compro/template1/beranda.php"><img
-                        src="https://trilliun.com/img/trilliunwhite.png" class="mr-4" alt="Trilliun" width="60"
-                        style="filter: invert(1)"></a>
+                <a class="navbar-logo" href="beranda.php"><img src="assets/image/logo-mpi.png"
+                        alt="Figo" width="40"></a>
+                <a class="navbar-logo-text ms-2 me-4" href="beranda.php"><img
+                        src="assets/image/deluxelogo.png" class="mr-4" alt="Figo" width="60"></a>
                 <div class="navbar-menu-btn d-flex align-items-center ms-2">
                     <a href="#!" class="navmenu-btn">MENU</a>
                 </div>
             </div>
             <div class="d-flex flex-row justify-content-between px-4 w-100 d-lg-none d-block">
-                <div class="d-flex flex-row align-items-center">
-                    <a class="navbar-logo" href="https://trilliun.com"><img src="https://trilliun.com/img/icon-trilliun.png"
-                            alt="Trilliun" width="40"></a>
-                    <a class="navbar-logo-text ms-2 me-4" href="https://trilliun.com"><img
-                            src="https://trilliun.com/img/trilliunwhite.png" class="mr-4" alt="Trilliun" width="60"
-                            style="filter: invert(1)"></a>
-                </div>
                 <div class="navbar-menu-btn border-0 d-flex align-items-center justify-content-end">
                     <a href="#!" class="navmenu-btn">MENU</a>
                 </div>
@@ -123,8 +115,8 @@
                     <div class="d-flex flex-column">
                         <ul>
                             <li>
-                                <a href="https://trilliun.com/pipe" class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="https://trilliun.com/img/logo/logo_trilliun.png">
+                                <a href="pipempi.php" class="submenu-heading d-flex flex-column align-items-start">
+                                    <img src="assets/image/logo-mpi.png">
                                     <span><i>u</i>PVC Pipe & Fitting</span>
                                 </a>
                             </li>
@@ -136,15 +128,6 @@
                             </li>
                             <li>
                                 <a href="https://trilliun.com/pro">Trilliunpro</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/shield">Trilliunshield</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/advance">Trilliunadvance</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/volta">Trilliunvolta</a>
                             </li>
                         </ul>
                         <ul>
@@ -324,27 +307,24 @@
         <div class="menu-header-lg-mobile d-lg-none d-block d-flex flex-wrap pt-4" id="navmenu-2">
             <ul class="list-unstyled fw-normal small">
                 <li class="navmenu-header">
-                    <a href="https://trilliun.com/about" class="nav-link-mobile d-block">About</a>
+                    <a href="about.php" class="nav-link-mobile d-block">About</a>
                 </li>
                 <li class="navmenu-header">
-                    <a href="https://trilliun.com/catalog" class="nav-link-mobile d-block">Catalog</a>
+                    <a href="catalog.php" class="nav-link-mobile d-block">Catalog</a>
                 </li>
                 <li class="navmenu-header">
-                    <a href="https://trilliun.com/project" class="nav-link-mobile d-block">Projects</a>
+                    <a href="project.php" class="nav-link-mobile d-block">Projects</a>
                 </li>
                 <li class="navmenu-header">
-                    <a href="https://trilliun.com/certificates" class="nav-link-mobile d-block">Certificates</a>
+                    <a href="karir.php" class="nav-link-mobile d-block">Careers</a>
                 </li>
                 <li class="navmenu-header">
-                    <a href="https://trilliun.com/career" class="nav-link-mobile d-block">Careers</a>
-                </li>
-                <li class="navmenu-header">
-                    <a href="https://trilliun.com/contact" class="nav-link-mobile d-block">Contact</a>
+                    <a href="kontak.php" class="nav-link-mobile d-block">Contact</a>
                 </li>
                 <li class="navmenu-header">
                     <div class="nav-link-mobile nav-link-collapse d-flex justify-content-between collapsed"
                         data-bs-toggle="collapse" data-bs-target="#trlPipe-collapse">
-                        Trilliun Pipe
+                        Figo Pipe
                         <div class="nav-arrow"></div>
                     </div>
 
@@ -358,15 +338,6 @@
                                 </a></li>
                             <li><a href="https://trilliun.com/pro" class="nav-link navmenu-header-submenu">
                                     Trilliunpro
-                                </a></li>
-                            <li><a href="https://trilliun.com/shield" class="nav-link navmenu-header-submenu">
-                                    Trilliunshield
-                                </a></li>
-                            <li><a href="https://trilliun.com/advance" class="nav-link navmenu-header-submenu">
-                                    Trilliunadvance
-                                </a></li>
-                            <li><a href="https://trilliun.com/volta" class="nav-link navmenu-header-submenu">
-                                    Trilliunvolta
                                 </a></li>
                         </ul>
                     </div>
@@ -451,34 +422,67 @@
 
     <div class="content">
         <div class="d-flex flex-column justify-content-end pt-md-5 pt-0 justify-content-md-center pb-4 pages-header pages-header-paralax"
-            style="background-image:url('https://trilliun.com/img/pages/Foto-Pabrik-1.jpg')">
+            style="background-image:url('assets/image/10-area-produksi.jpg')">
             <div class="d-flex flex-column pages-header-content">
                 <p class="text-white p-0 mb-1">REASON <strong>#11.302.777</strong></p>
                 <h5 class="text-white">Indonesia’s leading manufacturer of<br />PVC & HDPE products.</h5>
             </div>
         </div>
 
-
+        <h2 class="about-title mt-5" style="text-align: center;">FIGO PRODUCTS</h2>
         <div class="container-fluid-x">
-            <div class="d-flex about-section mt-5">
-                <div class="col-lg-4 d-flex flex-column p-3 justify-content-center align-items-center">
-                    <img src="https://trilliun.com/img/logo/logo-trilliun-h.png" width="300" class="mb-4">
-                    <p class="p-bold">didirikan pada tahun 2006 berlokasi di kawasan industri Gempol, Kabupaten Pasuruan, Jawa
-                        Timur,
-                        Indonesia.
-                    </p>
+            <div class="row homeSection m-0 pb-3">
+                <div class="col-lg-7 order-1 order-lg-2 ps-0 ps-lg-5 pe-0">
+                    <div id="carouseltrilliunabout" class="homeCarouselabout carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouseltrilliun"
+                                data-bs-slide-to="0" class="active"
+                                aria-current=&quot;true&quot;
+                                aria-label="Slide 0"></button>
+                            <button type="button" data-bs-target="#carouseltrilliun"
+                                data-bs-slide-to="1" class=""
+
+                                aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouseltrilliun"
+                                data-bs-slide-to="2" class=""
+
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouseltrilliun"
+                                data-bs-slide-to="3" class=""
+
+                                aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouseltrilliun"
+                                data-bs-slide-to="4" class=""
+
+                                aria-label="Slide 4"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="5000">
+                                <img src="assets/image/1.jpg" class="w-100" alt="Product Spotlight">
+                            </div>
+                            <div class="carousel-item " data-bs-interval="5000">
+                                <img src="assets/image/2.jpg" class="w-100" alt="Product Spotlight">
+                            </div>
+                            <div class="carousel-item " data-bs-interval="5000">
+                                <img src="assets/image/3.jpg" class="w-100" alt="Product Spotlight">
+                            </div>
+                            <div class="carousel-item " data-bs-interval="5000">
+                                <img src="assets/image/4.jpg" class="w-100" alt="Product Spotlight">
+                            </div>
+                            <div class="carousel-item " data-bs-interval="5000">
+                                <img src="assets/image/5.jpg" class="w-100" alt="Product Spotlight">
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
-                <div class="col-lg-8">
-                    <h2 class="about-title">Company Profile</h2>
-                    <iframe title="Trilliun (Company Profile)" class="w-100" height="523"
-                        src="https://www.youtube.com/embed/ppo7KysoNig?feature=oembed"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        allowfullscreen="" name="fitvid0"></iframe>
-                    <p class="pt-2">Trilliun memproduksi berbagai macam produk-produk PVC & HDPE dengan kualitas terbaik &
-                        inovatif.</p>
+                <div class="col-lg-5 d-flex flex-column desc no-bg order-2 order-lg-1">
+                    <p class="text-header">"Mahajaya adalah cerminan dari dedikasi dan inovasi yang tiada henti."</p>
+                    <p>Pabrik Selang Mahajaya, didirikan tahun 2005 di kota industri Tangerang, Indonesia <i>quality control</i> yang ketat sehingga semua produk FIGO memiliki karakteristik yang kuat dan tahan lama.<br /><br />Tidak hanya memberikan kualitas produk yang terbaik, kepuasan pelanggan juga merupakan prioritas utama FIGO dengan berkomitmen memberikan servis yang terbaik dari segala sisi, serta pelayanan purna jual yang prima.</p>
+
                 </div>
             </div>
-            <h2 class="about-title mt-5">TRILLIUN PRODUCTS</h2>
             <div class="row homeSection m-0 pb-3">
                 <div class="col-lg-7 ps-0 pe-0 pe-lg-5">
                     <div id="carouseltrilliun" class="homeCarouselabout carousel slide" data-bs-ride="carousel">
@@ -503,39 +507,31 @@
                                 data-bs-slide-to="4" class=""
 
                                 aria-label="Slide 4"></button>
-                            <button type="button" data-bs-target="#carouseltrilliun"
-                                data-bs-slide-to="5" class=""
-
-                                aria-label="Slide 5"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slide2-01.jpg" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/product6.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-02.png" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/product7.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-03.png" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/product3.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-04.png" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/product4.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-05.png" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/product5.jpg" class="w-100" alt="Product Spotlight">
                             </div>
-                            <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout-06.png" class="w-100" alt="Product Spotlight">
-                            </div>
-
                         </div>
 
                     </div>
 
                 </div>
                 <div class="col-lg-5 d-flex flex-column desc no-bg ">
-                    <p class="text-header">Trilliun adalah perusahaan yang terdepan dalam memproduksi produk-produk PVC dan HDPE yang berkualitas.</p>
-                    <p>Trilliun berkonsentrasi dalam memproduksi dan memasarkan produk- produk: <i>u</i>PVC & PE Pipe, <i>u</i>PVC Fitting, <i>u</i>PVC Gutter, PVC Hose, PVC Door dan PE Rope. Trilliun akan terus melakukan <i>continous improvement</i> untuk melahirkan dan memasarkan produk-produk inovatif dan kreatif dalam memenuhi kebutuhan pelanggan. </p>
+                    <p class="text-header">"Mahajaya selalu terdepan."</p>
+                    <p>Pabrik Selang Mahajaya sangat ahli dalam inovasi produk PVC dan HDPE yang berkualitas.</p>
 
                 </div>
             </div>
@@ -560,74 +556,78 @@
                                 data-bs-slide-to="3" class=""
 
                                 aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouseltrilliunabout"
+                                data-bs-slide-to="4" class=""
+
+                                aria-label="Slide 4"></button>
                         </div>
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-01.jpg" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/capnipple.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-03.jpg" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/longconnector.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-04.jpg" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/outlet.jpg" class="w-100" alt="Product Spotlight">
                             </div>
                             <div class="carousel-item " data-bs-interval="5000">
-                                <img src="https://trilliun.com/img/slide/slideabout2-05.jpg" class="w-100" alt="Product Spotlight">
+                                <img src="assets/image/suctionconnector.jpg" class="w-100" alt="Product Spotlight">
                             </div>
-
+                            <div class="carousel-item " data-bs-interval="5000">
+                                <img src="assets/image/twohole.jpg" class="w-100" alt="Product Spotlight">
+                            </div>
                         </div>
 
                     </div>
 
                 </div>
                 <div class="col-lg-5 d-flex flex-column desc no-bg order-2 order-lg-1">
-                    <p class="text-header">Kualitas produk dan kepuasan pelanggan adalah prioritas Trilliun.</p>
-                    <p>Trilliun menjamin setiap produknya diproduksi dengan mesin-mesin berteknologi tinggi serta melewati <i>quality control</i> yang ketat sehingga semua produk Trilliun memiliki karakteristik yang kuat dan tahan lama.<br /><br />Tidak hanya memberikan kualitas produk yang terbaik, kepuasan pelanggan juga merupakan prioritas utama Trilliun dengan berkomitmen memberikan servis yang terbaik dari segala sisi, serta pelayanan purna jual yang prima.</p>
+                    <p class="text-header">"Mahajaya peduli kesehatan Bangsa."</p>
+                    <p>Selain sektor Pertambangan, Agriculture, dan Rumah Tangga, Pabrik Selang Mahajaya juga hadir dan berperan pada industri Kesehatan.</p>
 
                 </div>
             </div>
 
             <div class="d-flex flex-column justify-content-end pt-md-5 my-5 pt-0 justify-content-md-center pb-4 content-paralax"
-                style="background-image:url('https://trilliun.com/img/pages/point9b.jpg')">
+                style="background-image:url('assets/image/INDUSTRIAL-BACKGROUND-1.jpg')">
                 &nbsp;
             </div>
-            <h3 class="trl-recognition text-center pt-4">a <strong>Trilliun</strong> Recognition</h3>
+            <h3 class="trl-recognition text-center pt-4">a <strong>FIGO</strong> Recognition</h3>
             <p class="text-center fw-light lh-lg">Sebagai wujud komitmen dalam menjaga kualitas produk dan mengedepankan
                 kepuasan
-                pelanggan, Trilliun<br />secara aktif
+                pelanggan, FIGO<br />secara aktif
                 dan konsisten melakukan pengujian melalui berbagai sertifikasi dan standarisasi, baik dalam<br /> skala nasional
                 maupun internasional.</p>
             <center>
-                <img class="my-5 img-cert" src="https://trilliun.com/img/pages/logo-all-sertifikat-scaled.jpg" alt="All Certificates">
+                <img class="my-5 img-cert" src="assets/image/certificatemahajaya.png" alt="All Certificates">
             </center>
             <center class="mb-5">
-                <a href="https://trilliun.com/certificates" class="fw-bold text-trilliun">Detail Sertifikat</a>
+                <a href="sertifikat.php" class="fw-bold text-trilliun">Detail Sertifikat</a>
             </center>
-
             <div class="pages-section text-center d-block d-flex flex-column flex-lg-row gap-3 py-0">
-                <a href="https://trilliun.com/about" class="card rounded-0 border-0 pages-card"
-                    style="background-image: url('https://trilliun.com/img/pages/abt.jpg')">
+                <a href="about.php" class="card rounded-0 border-0 pages-card"
+                    style="background-image: url('assets/image/hobibg.jpg')">
                     <div class="d-flex flex-column my-auto pages-card-body gap-2">
-                        <h4 class="align-self-start">About <strong>Trilliun</strong></h4>
+                        <h4 class="align-self-start">About <strong>FIGO</strong></h4>
                         <div class="align-self-start">Learn more</div>
                     </div>
                 </a>
-                <a href="https://trilliun.com/career" class="card rounded-0 border-0 pages-card"
-                    style="background-image: url('https://trilliun.com/img/pages/smallcareer.jpg')">
+                <a href="karir.php" class="card rounded-0 border-0 pages-card"
+                    style="background-image: url('assets/image/businessloan2.png')">
                     <div class="d-flex flex-column my-auto pages-card-body gap-2">
                         <h4 class="align-self-start">Careers</h4>
                         <div class="align-self-start">Inquiry Now</div>
                     </div>
                 </a>
-                <a href="https://trilliun.com/contact" class="card rounded-0 border-0 pages-card"
-                    style="background-image: url('https://trilliun.com/img/pages/Button-Contact-us.jpg')">
+                <a href="kontak.php" class="card rounded-0 border-0 pages-card"
+                    style="background-image: url('assets/image/businessloan.png')">
                     <div class="d-flex flex-column my-auto pages-card-body gap-2">
                         <h4 class="align-self-start">Contact Us</h4>
                         <div class="align-self-start">Send us a message</div>
                     </div>
                 </a>
             </div>
-
         </div>
     </div>
 

@@ -13,7 +13,7 @@
     <link rel="icon" href="assets/image/logo-192x192.png" sizes="192x192" />
     <link rel="apple-touch-icon" href="assets/image/logo-180x180.png" />
     <meta name="msapplication-TileImage" content="assets/image/logo-270x270.png" />
-    <title>TRILLIUN: Pipa &amp; Fitting, Talang, Selang dan Tali PE Berkualitas</title>
+    <title>MPI: Hose</title>
     <meta name="description" content="Trilliun produsen pipa HPDE &amp; talang uPVC, selang PVC, tali PE. Produk kuat dan tahan lama, telah lulus standar mutu Nasional (SNI) dan Internasional." />
     <link rel="canonical" href="https://localhost/compro/template1/beranda.php" />
     <meta property="og:locale" content="en_US" />
@@ -51,27 +51,16 @@
     <div class="fixed-top">
         <nav class="navbar bg-white trilliun_navbar fixed-top">
             <div class="d-flex flex-row align-items-center px-4 navbar-container d-none d-lg-flex">
-                <a class="navbar-logo" href="beranda.php"><img src="assets/image/logo-mpi.png"
-                        alt="Trilliun" width="40"></a>
+                <a class="navbar-logo" href="beranda.php"><img src="assets/image/only IO.png"
+                        alt="Trilliun" width="60"></a>
                 <a class="navbar-logo-text ms-2 me-4" href="beranda.php"><img
-                        src="assets/image/deluxelogo.png" class="mr-4" alt="mpi" width="60"
-                        style="filter: invert(1)"></a>
+                        src="assets/image/figo-tulisan.png" class="mr-4" alt="Trilliun" width="60"
+                        ></a>
                 <div class="navbar-menu-btn d-flex align-items-center ms-2">
                     <a href="#!" class="navmenu-btn">MENU</a>
                 </div>
             </div>
-            <div class="d-flex flex-row justify-content-between px-4 w-100 d-lg-none d-block">
-                <div class="d-flex flex-row align-items-center">
-                    <a class="navbar-logo" href="beranda.php"><img src="assets/image/logo-mpi.png"
-                            alt="Trilliun" width="40"></a>
-                    <a class="navbar-logo-text ms-2 me-4" href="beranda.php"><img
-                            src="assets/image/deluxelogo.png" class="mr-4" alt="mpi" width="60"
-                            style="filter: invert(1)"></a>
-                </div>
-                <div class="navbar-menu-btn border-0 d-flex align-items-center justify-content-end">
-                    <a href="#!" class="navmenu-btn">MENU</a>
-                </div>
-            </div>
+          
         </nav>
     </div>
     <div class="d-lg-block d-none">
@@ -94,78 +83,41 @@
                         <ul>
                             <li>
                                 <a href="https://trilliun.com/pipe" class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="assets/image/logo_trilliun.png">
-                                    <span><i>u</i>PVC Pipe & Fitting</span>
+                                    <img src="assets/image/gutter 01qs.png">
+                                    <span>SPECIALITY PVC HOSE &nbsp;</span> 
                                 </a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/pureflo">Trilliunpureflo</a>
+                                <a href="https://trilliun.com/pureflo">Air Pressure</a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/basics">Trilliunbasics</a>
+                                <a href="https://trilliun.com/basics">Liquid Petrolium Gas</a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/pro">Trilliunpro</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/shield">Trilliunshield</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/advance">Trilliunadvance</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/volta">Trilliunvolta</a>
+                                <a href="https://trilliun.com/pro">Twin Welding</a>
                             </li>
                         </ul>
-                        <ul>
-                            <li>
-                                <a href="https://trilliun.com/trilliun-prime"
-                                    class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="assets/image/logo_trilliun.png">
-                                    <span>HDPE Pipe</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/trilliun-prime">Trilliunprime</a>
-                            </li>
-                        </ul>
+                       
                     </div>
 
                     <div class="d-flex flex-column">
                         <ul>
                             <li>
                                 <a href="https://trilliun.com/hose" class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="assets/image/hose 01.png">
-                                    <span>PVC Hose</span>
+                                    <img src="assets/image/gutter 01qs.png">
+                                    <span>HEAVY DUTY PVC HOSE &nbsp;</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/dof">Trilliun Dof</a>
+                                <a href="https://trilliun.com/dof">Lay Flat</a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/superflex-hose">Trilliun Superflex</a>
+                                <a href="https://trilliun.com/superflex-hose">Steel Wire</a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/stabilo-hose">Trilliun Stabilo</a>
+                                <a href="https://trilliun.com/stabilo-hose">Spiral</a>
                             </li>
-                            <li>
-                                <a href="https://trilliun.com/transparent-hose">Trilliun Transparan</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/trilliun-elastis-tebal">Trilliun Elastis Tebal</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/hiprex-hose">Trilliun Hiprex</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/spiral-hose">Trilliun Spiral</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/spiral-premium-hose">Trilliun Spiral Premium</a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/air-hose">Trilliun Air Hose</a>
-                            </li>
+                          
                         </ul>
 
                     </div>
@@ -174,79 +126,81 @@
                         <ul>
                             <li>
                                 <a href="https://trilliun.com/gutter" class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="assets/image/gutter 01.png">
-                                    <span><i>u</i>PVC Gutter</span>
+                                    <img src="assets/image/gutter 01qs.png">
+                                    <span>GARDEN PVC HOSE &nbsp;</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/gutter">Trilliungutter</a>
+                                <a href="https://trilliun.com/gutter">Dop</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Elastic</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Hydroponic</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Reinforced</a>
                             </li>
                         </ul>
-                        <ul>
-                            <li>
-                                <a href="https://trilliun.com/rope" class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="assets/image/rope 01.png">
-                                    <span>PE Rope</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/rope">Trilliunrope</a>
-                            </li>
-                        </ul>
-                        <ul>
-                            <li>
-                                <a href="https://trilliun.com/trilliunglue"
-                                    class="submenu-heading d-flex flex-column align-items-start">
-                                    <img src="assets/image/trilliunglue.png">
-                                    <span>PVC Glue</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://trilliun.com/trilliunglue">Trilliunglue</a>
-                            </li>
-                        </ul>
-
+                        
                     </div>
 
-                    <div class="d-flex flex-column gap-2">
+                     <div class="d-flex flex-column">
                         <ul>
-                            <li class="mt-3">
-                                <a href="https://trilliun.com/koyohose"
-                                    class="submenu-heading d-flex flex-column align-items-start logo-custom logo-lg gap-3">
-                                    <img src="assets/image/Koyohose-logo.png">
-                                    <span>PVC Hose</span>
+                            <li>
+                                <a href="https://trilliun.com/gutter" class="submenu-heading d-flex flex-column align-items-start">
+                                    <img src="assets/image/gutter 01qs.png">
+                                    <span>HOUSEHOLD & <br> MULTIPURPOSES &nbsp;</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/koyohose-dof">Koyohose Dof</a>
+                                <a href="https://trilliun.com/gutter">Anti-Slip Stair Trim</a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/koyohose-hiprex">Koyohose Hiprex</a>
+                                <a href="https://trilliun.com/gutter">Bucket</a>
                             </li>
                             <li>
-                                <a href="https://trilliun.com/koyohose-garden">Koyohose Garden</a>
+                                <a href="https://trilliun.com/gutter">Cable Duct Protector</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Corrugated</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Fitting</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Pouch Trim</a>
                             </li>
                         </ul>
+                        
+                    </div>
+
+                     <div class="d-flex flex-column">
                         <ul>
                             <li>
-                                <a href="https://trilliunware.com/"
-                                    class="submenu-heading d-flex flex-column align-items-start logo-custom logo-md-2 gap-2"
-                                    target="_blank">
-                                    <img src="assets/image/logo_trilliunware.png">
-                                    <span>Sanitaryware</span>
+                                <a href="https://trilliun.com/gutter" class="submenu-heading d-flex flex-column align-items-start">
+                                    <img src="assets/image/gutter 01qs.png">
+                                    <span>MEDICAL  PART DEVICE &nbsp;</span>
                                 </a>
                             </li>
-                        </ul>
-                        <ul>
                             <li>
-                                <a href="https://unnu.com"
-                                    class="submenu-heading d-flex flex-column align-items-start logo-custom logo-md gap-2"
-                                    target="_blank">
-                                    <img src="assets/image/logo_unnu.png">
-                                    <span>Bathroom Fitting &<br /> Plumbing Hardware</span>
-                                </a>
+                                <a href="https://trilliun.com/gutter">Blood Transfusion Part</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Drainage Part</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Infusion Part</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Respiratory Part</a>
+                            </li>
+                            <li>
+                                <a href="https://trilliun.com/gutter">Urology Part</a>
                             </li>
                         </ul>
+                        
                     </div>
 
                 </div>
@@ -254,7 +208,7 @@
             <div class="d-flex flex-wrap navbar-right">
                 <strong class="mb-4 contactus">Contact Us</strong>
                 <p class="mb-1">
-                    <strong>PT. Matahari Putra Makmur</strong>
+                    <strong>PT. Mahajaya Plastindo Indonesia</strong>
                 </p>
                 <p>Jl. Raya Gempol Bangil,<br />Desa Cangkringmalang,<br />Kec. Beji, Kab. Pasuruan<br />Jawa Timur,
                     Indonesia
